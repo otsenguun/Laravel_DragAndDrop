@@ -1,0 +1,142 @@
+ #sortable1, #sortable2 {
+          border: 1px solid #eee;
+          width: 100%;
+          min-height: 20px;
+          list-style-type: none;
+          margin: 0;
+          padding: 5px 0 0 0;
+          float: left;
+          margin-right: 10px;
+          background-color: #fff;
+        }
+        #sortable1 div{
+          margin-top: 5px;
+          margin-bottom: 5px;
+          padding: 5px;
+          font-size: 1.2em;
+          height: auto;
+        }
+        #sortable2 div{
+          margin-top: 5px; 
+          padding: 5px;
+        }
+        .ui-state-default{
+          height: auto;
+        }
+        .test {
+          height: auto;
+          background-color: #fff;
+          color: #000;
+          text-align: center;
+          font-size: 30px;
+          border: 1px solid #eee;
+        }
+        .nav-tabs{
+          margin-top: 10px;
+          padding-bottom: 10px;
+        }
+        .editi{
+          opacity: 0;
+          transition: 0.2s;
+          color: #fff;
+          z-index: 1;
+          cursor: pointer;
+          position: absolute;
+          right: 55px;
+          top: 7px;
+          width: 35px;
+          height: 35px;
+          font-size: 24px;
+          background-color: #717171;
+          border: 1px solid black;
+          border-radius: 5px;
+          text-align: center;
+          padding-top: 5px;
+        }
+        .deletei{
+          opacity: 0;
+          transition: 0.2s;  
+          color: #fff;
+          z-index: 99999;
+          font-size: 24px;
+          cursor: pointer;
+          position: absolute;
+          right: 15px;
+          top: 7px;
+          width: 35px;
+          height: 35px;
+          background-color: #717171;
+          border: 1px solid black;
+          border-radius: 5px;
+          text-align: center;
+          padding-top: 5px;
+        }
+        .editi:hover{
+          color: black;
+        }
+        .deletei:hover{
+          color: black;
+        }
+        .black{
+          color: black;
+        }
+        .paper{
+          background-color: #fff;
+        }
+        
+        .theme{
+          border: 1px solid #eee;
+          background-color: #fff;
+        }
+        .theme i{
+          float: left;
+        }
+        .theme:hover .editi{
+            opacity: 1;
+        }
+        .theme:hover .deletei{
+          opacity: 1;
+        }
+        ul.ex1 {
+            background-color: lightblue;
+            width: 100px;
+            height: 100vh;
+            overflow: scroll;   
+        }
+        .fixed001{
+          position: fixed;
+          width: 15%;
+        }
+        textarea {
+          box-sizing: border-box;
+          resize: none;
+      }
+      .image_auto{
+        height: 300px;
+      }
+      .choose_file{
+        width: 100px;
+      }
+      .ui-state-highlight { height: 5em; line-height: 1.2em;
+        display: inline-block;
+        width: 100%;
+        border-style: dotted;
+        border-width: 3px;
+        border-color: #CCC;
+        background: none;
+      }  
+
+/*.yamm1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0;
+    border: 0 none;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.86) 100%);
+    z-index: 1;
+    text-align: center;
+}
+*/
+     
+     

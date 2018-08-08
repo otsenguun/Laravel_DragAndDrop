@@ -1,0 +1,179 @@
+[23-Feb-2018 01:16:01 UTC] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 1048576 bytes) in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 330
+[23-Feb-2018 01:22:11 UTC] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 1048576 bytes) in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 330
+[28-Feb-2018 07:21:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/alt/php70/usr/lib64/php/modules/pdo_mysql.so' - libmysqlclient.so.18: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[05-Mar-2018 06:31:20 UTC] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 65536 bytes) in /home/unlimit1/public_html/interview.mn/vendor/symfony/http-foundation/Response.php on line 1142
+[05-Mar-2018 06:31:21 UTC] PHP Fatal error:  Class 'Symfony\Component\HttpFoundation\Response' not found in /home/unlimit1/public_html/interview.mn/vendor/symfony/http-foundation/JsonResponse.php on line 25
+[21-Mar-2018 17:57:18 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 17:58:10 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 17:58:49 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 18:01:20 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 18:01:31 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 18:01:39 Asia/Ulaanbaatar] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[21-Mar-2018 18:01:39 Asia/Ulaanbaatar] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[21-Mar-2018 18:01:41 Asia/Ulaanbaatar] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[21-Mar-2018 18:01:41 Asia/Ulaanbaatar] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[21-Mar-2018 18:02:06 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 18:02:17 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 18:03:42 Asia/Ulaanbaatar] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[21-Mar-2018 18:03:42 Asia/Ulaanbaatar] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[21-Mar-2018 18:03:44 Asia/Ulaanbaatar] PHP Warning:  Unknown: Unable to create temporary file, Check permissions in temporary files directory. in Unknown on line 0
+[21-Mar-2018 18:03:44 Asia/Ulaanbaatar] PHP Warning:  Unknown: POST data can't be buffered; all data discarded in Unknown on line 0
+[21-Mar-2018 18:04:28 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 18:04:36 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[21-Mar-2018 18:05:54 Asia/Ulaanbaatar] PHP Warning:  File upload error - unable to create a temporary file in Unknown on line 0
+[22-Mar-2018 09:11:23 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:23 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:23 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:25 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:11:26 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:37:27 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:37:27 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:37:27 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:42:20 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:42:20 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:42:20 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:44:21 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:44:21 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:44:21 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:44:41 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:44:41 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:44:41 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:44:55 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:44:55 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:44:55 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:45:14 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:45:14 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:45:14 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 09:47:42 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:47:42 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 09:47:42 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 10:02:13 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 10:02:13 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 10:02:13 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 10:02:17 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 10:02:17 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 10:02:17 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[22-Mar-2018 10:02:23 Asia/Ulaanbaatar] PHP Warning:  include(/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 10:02:23 Asia/Ulaanbaatar] PHP Warning:  include(): Failed opening '/home/unlimit1/public_html/interview.mn/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/unlimit1/public_html/interview.mn/vendor/composer/ClassLoader.php on line 444
+[22-Mar-2018 10:02:23 Asia/Ulaanbaatar] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\A in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[29-Mar-2018 03:32:59 Asia/Ulaanbaatar] PHP Parse error:  syntax error, unexpected '?' in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[30-Mar-2018 05:29:32 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/unlimit1/public_html/interview.mn/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 863
+[30-Mar-2018 05:29:32 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/unlimit1/public_html/interview.mn/vendor/symfony/debug/Exception/FatalErrorException.php on line 1

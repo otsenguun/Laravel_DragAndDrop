@@ -1,0 +1,530 @@
+#pinBoot {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.white-panel {
+  position: absolute;
+  background: white;
+  padding: 10px;
+  padding-top: 10px;
+
+}
+.white-panel:after{
+ position: absolute;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    display: block;
+    width: auto;
+    border-bottom: 1px solid #eee;
+    content: '';
+}
+.white-panel1 {
+  position: absolute;
+  background: white;
+  padding: 10px;
+  padding-top: 10px;
+  height: 11%;
+
+
+}
+.white-panel1:after{
+ position: absolute;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    display: block;
+    width: auto;
+    border-bottom: 1px solid #eee;
+    content: '';
+}
+
+
+
+
+.white-panel1:after{
+ position: absolute;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    display: block;
+    width: auto;
+    content: '';
+}
+/*
+stylize any heading tags withing white-panel below
+*/
+
+.white-panel h1 {
+  font-size: 1em;
+}
+.white-panel h1 a {
+  color: #A92733;
+}
+.entry-title1{
+  margin-top: 15px;
+    padding-right: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    letter-spacing: 0.045em;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.entry-header h2{
+  font-size: 16px;
+}
+.text-uppercase1{
+  text-transform: uppercase;
+}
+
+.white-panel .entry-meta {
+    font-size: 12px;
+    font-weight: 600;
+    color: #999;
+    text-transform: uppercase;
+
+}
+.entry-meta1{
+   font-size: 12px;
+    font-weight: 600;
+    color: #999;
+    position: relative;
+    top: -10px;
+    /*text-transform: uppercase;*/
+}
+.met001{
+   font-size: 12px;
+    font-weight: 600;
+    color: #999;
+    margin-top: -40px;
+    /*text-transform: uppercase;*/
+}
+.entry-meta__item1{
+  margin-right: 15px;
+  font-size:10px;
+  font-family: 'Roboto', sans-serif;
+}
+.roboto_text{
+    font-family: 'Roboto', sans-serif;
+}
+.regular {
+  
+}
+.ask_text{
+  font-size: 17px;
+  font-weight: bold;
+}
+.answer_001{
+  margin-top: 20px;
+
+}
+.entry-meta__link1{
+  color: #999;
+  transition: all 0.3s;
+}
+.entry-meta__link1:hover{
+  color: black;
+}
+.name_001{
+  color: #999999;
+}
+.text_001{
+  color: black;
+}
+#my-img:hover {
+    content: url('assets/media/content/post/360x200/1a.jpg');
+}
+#right_face{
+  text-align: right;
+  float: right;
+}
+.asdf{
+  float: left;
+  margin-left: 15px;
+}
+.hailt{
+  margin-top: 6px;
+}
+.asd{
+  float: right;
+  margin-right: 20px;
+}
+.quote001{
+  float: left;
+}
+.font_fam{
+  font-family: 'Merriweather';
+  color: white;
+}
+.color__001{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.color-002{
+  color: black;
+}
+.color_003{
+    background-color: white;
+}
+#sec_04{
+    margin-top: 2vw;
+  top: -180px;
+}
+
+
+.content-text{
+    position: relative;
+    width: 90%;
+    height: auto;
+    left: 4%;
+}
+.content-text p{
+  color: #fff;
+  padding: 2vw 2vw 2vw 4vw;
+}
+.content-text .text-image{
+     position: absolute;
+    width: 3vw;
+    height: auto;
+    top: 1.5vw;
+    left: 0px;
+}
+
+ .text-image img{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.content-text .text-image1{
+     position: absolute;
+    width: 3vw;
+    height: auto;
+    bottom: 1.5vw;
+    right: 0px;
+}
+.text-image1 img{
+  width: 100%;
+  height: auto;
+}
+.widget-content ul li a{
+  height: auto;
+  font-size: 9px;
+}
+.stay_001{
+  margin-top: 20px;
+}
+.content-text2{
+    color: #fff;
+    position: relative;
+    top: -49px;
+    left: 17%;
+
+}
+.content-text1{
+    position: relative;
+    top: -41px;
+    margin-left: 17%;
+
+
+}
+.entry-main1 p{
+  color: black;
+}
+.entry-main1 .text-image{
+  position: absolute;
+    width: 3vw;
+    height: auto;
+    top: 1.5vw;
+    left: 0px;
+}
+.text-image{
+  width: 100%;
+  height: auto;
+}
+
+.entry-main1{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.entry-main1 .text-image11 {
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    top: 0vw;
+    left: 0px;
+}
+.entry-main1 .text-image12 {
+    position: absolute;
+    width: 3vw;
+    height: auto;
+    bottom: -0.01vw;
+    right: 0px;
+
+}
+.entry-main1 p {
+    padding: 1vw 0vw 0vw 0vw;
+}
+.wrp_001 p{
+  font-size: 12px;
+
+}
+.con_new_plus{
+    float: right;
+    right: 3%;
+    position: relative;
+    top: -80px;
+    margin-bottom: -65px;
+        padding-left: 30px;
+  }
+
+  .load_001{
+        padding-top: 20px;
+   margin-bottom: -100px;
+  }
+   .by_person{
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   position: absolute;
+   top: 135px;
+   left: 120px;
+  }
+  .new_001{
+    top: 235px;
+  }
+  .new_002{
+    top: 325px;
+  }
+  .profile{
+     width: 50px;
+     height: 50px;
+     border-radius: 50px;
+  }
+  .profile1{
+    width: 50px;
+ }
+
+.end_form{
+  margin-bottom: 30px;
+}
+.profile_person{
+  margin-top: -170px;
+}
+.container .main-slider__title{
+    width: 50%;
+}
+.container .main-slider__title1{
+    width: 70%;
+}
+/*.profile_person_001{
+  height: auto;
+}*/
+
+.font_14{
+  font-size: 24px;
+  text-align: center
+}
+.text_002{
+  padding-bottom: 10px;
+}
+.entry-content003{
+  margin-top: -19%;
+}
+.top_004{
+  margin-top: 23px;
+}
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 70vh;
+ 
+  background-attachment: fixed;  /*this may be the key*/
+  background-position: top center;
+  background-size: cover;
+}
+.parallax .bg__break {
+  box-shadow: inset 0 0 1em #111;
+  background-image: url("../media/content/post/1140x400/2.jpg");
+}
+.profile_person_001 .new_person{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    position: relative;
+    top: -50px;
+    left: 38%;
+  }
+
+
+  body, html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../media/content/post/1140x400/2.jpg 3.jpg');
+
+    /* Full height */
+    height: 100%; 
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url('../media/content/post/1140x400/2.jpg 2.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fixed_buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+    .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#uploadButton{
+    position: relative;
+    top: -94px;
+    left: 67%;
+}
+#save_btn{
+    position: relative;
+    top: -128PX;
+    left: 76%;
+    padding-left: 20px;
+}
+.bold{
+
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 24px;
+}
+.title_style{
+      text-align: center;
+      padding-top: 200px;
+      padding-bottom: 5%;
+      max-width: 50%;
+      margin-left: 10% 
+    }
+    .section001{
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+
+.text_M_R_15{
+    margin-right: -15px;
+}
+
+.text_M_R_28{
+    margin-right: -28px;
+}
+
+.text_M_L_28{
+    margin-left: -28px;
+}
+.text_M_L_15{
+    margin-left: -15px;
+}
+.text_margin_RL{
+    margin-right: -13px;
+    margin-left: -13px;
+}
+.prof_desc{
+  text-align: center;
+}
+.margin-B{
+  margin-bottom: 20px;
+}
+.line{
+    padding-top: 10px;
+  padding-bottom: 10px;
+}
+.line-break{
+  width: 30%;
+   height: 1px;
+   background-color: #d3d3d3;
+   margin: 0 35%;
+}
+.line-break1{
+  width: 90%;
+   height: 1px;
+   background-color: #d3d3d3;
+   margin-left: 5%
+}
+.line-break2{
+  width: 70%;
+   height: 2px;
+   background-color: #d3d3d3;
+   margin-left: 15%
+}
+
+/* contact page */
+.contact-page-form input:focus, .contact-page-form textarea:focus {
+  outline: none !important;
+  border: solid 1px #fff !important;
+  box-shadow: 0 0 10px #000 !important;
+
+}
+/* remove google map buttons */
+.gmnoprint {
+  display: none !important;
+}

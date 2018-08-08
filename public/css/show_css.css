@@ -1,0 +1,40 @@
+#sortable1, #sortable2 {
+  width: 100%;
+  min-height: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 5px 0 0 0;
+  margin-right: 10px;
+}
+.ui-state-default{
+  height: auto;
+}
+.test {
+  height: auto;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid #eee;
+}
+.nav-tabs{
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+.editi{
+  display: none;
+}
+.deletei{
+  display: none;
+}
+.black{
+  color: black;
+}
+.paper{
+  background-color: #fff;
+}
+
+.theme{
+  background-color: #fff;
+}
+.ui-state-highlight { height: 5em; line-height: 1.2em; }

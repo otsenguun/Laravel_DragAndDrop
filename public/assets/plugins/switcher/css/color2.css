@@ -1,0 +1,91 @@
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 2*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* COLOR CSS 1*/
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+a,
+.color-primary,
+.text-primary,
+.social-links > li > a:hover,
+.list-mark-1 li:before,
+.list-mark-3 li:before,
+.list-num-1 li:before,
+.blockquote_mod-a:before,
+.alert_mod-c .alert-icon,
+.social-links .icon:hover,
+.breadcrumb > li > a:hover,
+.search-open:hover,
+.header-main .trigger:hover,
+.search-global__btn:hover,
+.post .entry-meta__link:hover,
+.list li a:hover,
+.list li:hover:before,
+.post-3_mod-b .rainting .icon,
+.entry-title__number,
+.video-block-main__title .icon,
+.staff:hover .staff__name,
+.downloads__btn:hover {color: #86a800;}
+
+
+.bg-primary,
+.btn-effect:after,
+.top-header__link:before,
+.decor-right,
+.decor-left,
+.decor-center,
+.tooltip-1 .tooltip-inner,
+.dropcap-1:first-letter,
+.blockquote-3,
+.btn-primary,
+.pagination_primary > .active > a,
+.pagination_primary > .active > span,
+.pagination_primary > li > a:hover,
+.pagination_primary > li > a:focus,
+.forms__check:checked + .forms__label-check_mod-a:before,
+.forms__label-radio_mod-a:before,
+.alert-warning,
+.progress-bar-primary,
+.table_mod-a > thead > tr > th:after,
+.footer-bottom__link:before,
+.ui-title-bg,
+.acc-type-a_mod-a .collapse.in + .panel-heading,
+.acc-type-a_mod-a .panel-body,
+.nav-tabs_primary > li.active > a,
+.nav-tabs_primary > li > a:hover,
+.nav-tabs_primary > li.active > a:focus,
+.owl-theme_mod-c .owl-controls .owl-page.active span,
+.owl-theme_mod-c .owl-controls.clickable .owl-page:hover span,
+.form-search__btn,
+.list-tags__link:hover {background-color: #86a800;}
+
+
+.btn-primary,
+.forms__check:checked + .forms__label-check_mod-a:before,
+.progress_border_primary,
+.owl-theme_mod-c .owl-controls .owl-page.active span,
+.owl-theme_mod-c .owl-controls.clickable .owl-page:hover span {border-color: #86a800;}
+
+
+.tooltip-1.top .tooltip-arrow,
+.tooltip-1.top-left .tooltip-arrow,
+.tooltip-1.top-right .tooltip-arrow {border-top-color: #86a800;}
+
+
+.tooltip-1.right .tooltip-arrow {border-right-color: #86a800;}
+
+
+.tooltip-1.left .tooltip-arrow,
+.yamm .dropdown-menu > li > a:hover,
+.yamm .dropdown-menu > li > a:focus,
+blockquote {border-left-color: #86a800;}
+
+
+.tooltip-1.bottom .tooltip-arrow,
+.tooltip-1.bottom-left .tooltip-arrow,
+.tooltip-1.bottom-right .tooltip-arrow,
+.table-primary > thead > tr > th,
+.collapse.in {border-bottom-color: #86a800;}
